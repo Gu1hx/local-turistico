@@ -86,6 +86,16 @@ li::marker{
     color: var(--text-secondary);
 }
 
+hr{
+    color: var(--border-primary);
+    font-weight: 1px;
+}
+
+footer{
+    font-family: 'Alice', serif;
+    color: var(--text-secondary);
+}
+
 /* Formatação das Imagens */
 
 #main-header img{
@@ -115,7 +125,7 @@ body{
 
 /* Margens e Paddings */
 
-h1{
+h1, h3{
     margin: 0;
 }
 
@@ -154,4 +164,12 @@ article img{
 
 .section-break{
     margin: 40px 0;
+}
+
+footer{
+    margin-bottom: 48px;
+}
+
+#main-header .subtitle, main footer{
+    text-align: center;
 }
