@@ -99,3 +99,59 @@ article img{
     height: 350px;
     border-radius: 28px;
 }
+
+/* Alinhamento */
+
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column
+}
+
+#container{
+    width: 1120px;
+}
+
+/* Margens e Paddings */
+
+h1{
+    margin: 0;
+}
+
+#container{
+    margin-bottom: 65px;
+    margin-top: 88px;
+}
+
+header .headline{
+    margin-bottom: 8px;
+}
+
+.img-header{
+    margin: 40px 0;
+}
+.img-header img{
+    margin-bottom: 24px;
+}
+
+.section-header{
+    margin-top:64px;
+    margin-bottom: 16px;
+}
+
+.section-header h2{
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+
+article{
+    margin-top: 48px;
+}
+article img{
+    margin-bottom: 20px;
+}
+
+.section-break{
+    margin: 40px 0;
+}
