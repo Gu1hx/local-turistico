@@ -21,34 +21,65 @@
 
 body {
     font-family: "Open Sans", sans-serif;
+    background-color: var(--background-default);
 }
 
-h1{
+h1 {
     font-size: 36px;
     font-weight: bold;
+    color: var(--text-primary);
 }
 
-h2{
+h2 {
     font-size: 32px;
     font-weight: bold;
+    color: var(--text-primary);
 }
 
-h3{
+h3 {
     font-size: 28px;
     font-weight: bold;
+    color: var(--text-primary);
 }
 
-.headline{
+.headline {
     font-size: 16px;
+    font-weight: bold;
+    color: var(--text-headline);
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-secondary);
+}
+
+.subtitle {
+    font-size: 16px;
+    font-style: italic;
+    color: var(--text-secondary);
+}
+
+.accent-blue {
+    color: var(--accent-blue);
+}
+
+.accent-orange {
+    color: var(--accent-orange);
+}
+
+.accent-pink {
+    color: var(--accent-pink);
+}
+
+.accent-purple {
+    color: var(--accent-purple);
+}
+
+.bold{
     font-weight: bold;
 }
 
-p{
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.subtitle{
-    font-size: 16px;
-    font-style: italic;
+li::marker{
+    color: var(--text-secondary);
 }
