@@ -108,6 +108,11 @@ article img{
     width: 1120px;
     height: 350px;
     border-radius: 28px;
+    object-fit: cover;
+}
+
+#Image_04{
+    object-position: 50% 85% ;
 }
 
 /* Alinhamento */
